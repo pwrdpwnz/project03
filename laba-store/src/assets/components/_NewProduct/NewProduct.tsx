@@ -1,4 +1,8 @@
-import product01.png
+import product01 from '../../img/product01.png';
+import product02 from '../../img/product02.png';
+import product03 from '../../img/product03.png';
+import product04 from '../../img/product04.png';
+import product05 from '../../img/product05.png';
 
 
 const NewProduct = () => {
@@ -35,7 +39,7 @@ const NewProduct = () => {
                                          {/* product */}
                                         <div className="product">
                                             <div className="product-img">
-                                                <img src="./img/product01.png" alt="" />
+                                                <img src={product01} alt="" />
                                                     <div className="product-label">
                                                         <span className="sale">-30%</span>
                                                         <span className="new">NEW</span>
@@ -75,7 +79,7 @@ const NewProduct = () => {
                                          {/* product */}
                                         <div className="product">
                                             <div className="product-img">
-                                                <img src="./img/product02.png" alt="" />
+                                                <img src={product02} alt="" />
                                                     <div className="product-label">
                                                         <span className="new">NEW</span>
                                                     </div>
@@ -114,7 +118,7 @@ const NewProduct = () => {
                                          {/* product */}
                                         <div className="product">
                                             <div className="product-img">
-                                                <img src="./img/product03.png" alt="" />
+                                                <img src={product03} alt="" />
                                                     <div className="product-label">
                                                         <span className="sale">-30%</span>
                                                     </div>
@@ -148,7 +152,7 @@ const NewProduct = () => {
                                          {/* product */}
                                         <div className="product">
                                             <div className="product-img">
-                                                <img src="./img/product04.png" alt="" />
+                                                <img src={product04} alt="" />
                                             </div>
                                             <div className="product-body">
                                                 <p className="product-category">Category</p>
@@ -184,7 +188,7 @@ const NewProduct = () => {
                                          {/* product */}
                                         <div className="product">
                                             <div className="product-img">
-                                                <img src="./img/product05.png" alt="" />
+                                                <img src={product05} alt="" />
                                             </div>
                                             <div className="product-body">
                                                 <p className="product-category">Category</p>

@@ -1,7 +1,7 @@
 (function($) {
 	"use strict"
 
-	// Mobile Nav toggle
+	// Mobile Navigation toggle
 	$('.menu-toggle > a').on('click', function (e) {
 		e.preventDefault();
 		$('#responsive-nav').toggleClass('active');
